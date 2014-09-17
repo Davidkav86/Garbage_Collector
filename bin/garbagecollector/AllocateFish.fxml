@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchor" minWidth="1268.9999000000025" prefHeight="740.0001779296799" prefWidth="1268.9999000000025" styleClass="background" visible="true" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="garbagecollector.GarbageCollectorController">
+  <children>
+    <Pane fx:id="tospace" layoutX="147.0" layoutY="42.0" prefHeight="316.0" prefWidth="198.0">
+      <children>
+        <Pane fx:id="test" focusTraversable="false" layoutX="0.0" layoutY="0.0" prefHeight="21.0" prefWidth="198.00026621094003" styleClass="poolObjects" visible="true">
+          <effect>
+            <InnerShadow />
+          </effect>
+          <stylesheets>
+            <URL value="@garbageCollector.css" />
+          </stylesheets>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="21.0" prefHeight="21.000099999997474" prefWidth="198.0001220703125" styleClass="poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="42.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="63.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="84.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="105.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="126.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects, mediumFish, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="147.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects, mediumFish, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="168.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="189.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="210.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="231.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="252.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="273.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="294.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+      </children>
+      <stylesheets>
+        <URL value="@garbageCollector.css" />
+      </stylesheets>
+    </Pane>
+    <Pane fx:id="handlePool" layoutX="407.0" layoutY="42.0" prefHeight="316.0" prefWidth="199.0">
+      <children>
+        <Pane id="test" fx:id="fromSpace" focusTraversable="false" layoutX="0.0" layoutY="0.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, poolObjects" visible="true">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="21.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="42.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="63.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="84.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="105.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="126.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects, mediumFish, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="147.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, poolObjects, mediumFish, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="168.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="189.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="210.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="231.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="252.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="273.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="294.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+      </children>
+      <stylesheets>
+        <URL value="@garbageCollector.css" />
+      </stylesheets>
+    </Pane>
+    <Pane id="handlePool" fx:id="fromspace" layoutX="667.0" layoutY="42.0" prefHeight="316.0" prefWidth="199.0">
+      <children>
+        <Pane id="test" focusTraversable="false" layoutX="0.0" layoutY="-1.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, poolObjects" visible="true">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="20.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="41.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="62.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="83.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="104.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="125.0" prefHeight="21.0" prefWidth="198.0" styleClass="null, poolObjects, mediumFish, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="146.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, poolObjects, mediumFish, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="167.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="188.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="209.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="230.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="251.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="272.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+        <Pane id="test" layoutX="0.0" layoutY="293.0" prefHeight="21.0" prefWidth="198.0" styleClass="bigFish, mediumFish, poolObjects, smallFish">
+          <effect>
+            <InnerShadow />
+          </effect>
+        </Pane>
+      </children>
+      <stylesheets>
+        <URL value="@garbageCollector.css" />
+      </stylesheets>
+    </Pane>
+    <Button fx:id="allocateBigFish" layoutX="14.0" layoutY="86.0" mnemonicParsing="false" onAction="#handleAllocateBigFish" prefWidth="110.0" text="Big Fish" />
+    <Button fx:id="allocateMediumFish" layoutX="14.0" layoutY="185.0" mnemonicParsing="false" onAction="#handleAllocateMediumFish" prefWidth="109.75408935546875" text="Medium Fish" />
+    <Button fx:id="allocateSmallFish" layoutX="14.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleAllocateSmallFish" prefWidth="109.75408935546875" text="Small Fish" />
+    <Text layoutX="215.0" layoutY="27.0" scaleX="2.2519519025132184" scaleY="1.375073787086223" strokeType="OUTSIDE" strokeWidth="0.0" text="tospace">
+      <font>
+        <Font name="Apple LiGothic Medium" size="13.0" fx:id="x1" />
+      </font>
+    </Text>
+    <Text font="$x1" layoutX="475.0" layoutY="30.0" scaleX="2.2519519025132184" scaleY="1.375073787086223" strokeType="OUTSIDE" strokeWidth="0.0" text="Handle Pool" />
+    <Text font="$x1" layoutX="734.0" layoutY="27.0" scaleX="2.2519519025132184" scaleY="1.375073787086223" strokeType="OUTSIDE" strokeWidth="0.0" text="fromspace" />
+    <Pane layoutX="969.0" layoutY="583.0" prefHeight="4.0" prefWidth="64.0" rotate="0.0" styleClass="poolObjects" />
+    <Pane id="seaPane" fx:id="referencePool" layoutX="14.0" layoutY="370.0" prefHeight="348.0" prefWidth="852.0" styleClass="gridPane">
+      <children>
+        <Pane fx:id="pane1" layoutX="463.0" layoutY="11.0" prefHeight="94.9852294921875" prefWidth="114.0" />
+        <Circle id="test" fx:id="drag" fill="#d633ff" layoutX="341.0" layoutY="81.0" onDragDetected="#handleDrag" radius="31.2625732421875" stroke="BLACK" strokeType="INSIDE" visible="false" />
+        <Pane id="bigPane" fx:id="bigLocalVariable" layoutX="11.0" layoutY="58.0" prefHeight="76.43965148925781" prefWidth="105.16729736328125">
+          <children>
+            <Polygon fill="DODGERBLUE" layoutX="33.0" layoutY="48.0" rotate="90.0" scaleX="0.3225241969409682" scaleY="0.45162675349118625" stroke="BLACK" strokeType="INSIDE">
+              <effect>
+                <DropShadow offsetX="5.0" offsetY="5.0">
+                  <color>
+                    <Color blue="0.392" green="0.392" red="0.392" fx:id="x2" />
+                  </color>
+                </DropShadow>
+              </effect>
+              <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+              </points>
+            </Polygon>
+            <Ellipse fill="DODGERBLUE" layoutX="57.0" layoutY="37.0" radiusX="38.56349182128906" radiusY="22.5" stroke="BLACK" strokeType="INSIDE">
+              <effect>
+                <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+              </effect>
+            </Ellipse>
+            <Polygon fill="DODGERBLUE" layoutX="55.0" layoutY="63.0" rotate="45.0" scaleX="0.17347897781202276" scaleY="0.24258563613283354" stroke="BLACK" strokeType="INSIDE">
+              <effect>
+                <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+              </effect>
+              <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+              </points>
+            </Polygon>
+            <Circle fill="WHITE" layoutX="75.0" layoutY="28.0" radius="5.4704742431640625" stroke="BLACK" strokeType="INSIDE" />
+            <Line endX="-82.0" endY="10.0" layoutX="170.0" layoutY="39.0" startX="-96.0" startY="7.0" stroke="WHITE" />
+          </children>
+        </Pane>
+        <Pane id="mediumPane" fx:id="mediumLocalVariable" layoutX="11.0" layoutY="138.0" prefHeight="80.0" prefWidth="108.0">
+          <children>
+            <Polygon fill="RED" layoutX="33.0" layoutY="48.0" rotate="90.0" scaleX="0.26" scaleY="0.37" stroke="BLACK" strokeType="INSIDE">
+              <effect>
+                <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+              </effect>
+              <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+              </points>
+            </Polygon>
+            <Ellipse fill="RED" layoutX="57.0" layoutY="37.0" radiusX="32.00004999999874" radiusY="18.0" stroke="BLACK" strokeType="INSIDE">
+              <effect>
+                <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+              </effect>
+            </Ellipse>
+            <Polygon fill="RED" layoutX="54.0" layoutY="63.0" rotate="45.0" scaleX="0.14" scaleY="0.21" stroke="BLACK" strokeType="INSIDE">
+              <effect>
+                <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+              </effect>
+              <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+              </points>
+            </Polygon>
+            <Circle fill="WHITE" layoutX="75.0" layoutY="28.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Line endX="-88.0" endY="7.0" layoutX="170.0" layoutY="39.0" startX="-98.0" startY="6.0" stroke="WHITE" />
+          </children>
+        </Pane>
+        <Pane id="smallPane" fx:id="smallLocalVariable" layoutX="11.0" layoutY="218.0" onDragDetected="#handleDrag" prefHeight="80.0" prefWidth="108.0">
+          <children>
+            <Polygon fill="LIMEGREEN" layoutX="33.0" layoutY="48.0" rotate="90.0" scaleX="0.22" scaleY="0.29" stroke="BLACK" strokeType="INSIDE">
+              <effect>
+                <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+              </effect>
+              <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+              </points>
+            </Polygon>
+            <Ellipse fill="LIMEGREEN" layoutX="57.0" layoutY="37.0" radiusX="28.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+              <effect>
+                <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+              </effect>
+            </Ellipse>
+            <Polygon fill="LIMEGREEN" layoutX="54.0" layoutY="63.0" rotate="45.0" scaleX="0.11" scaleY="0.18" stroke="BLACK" strokeType="INSIDE">
+              <effect>
+                <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+              </effect>
+              <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+              </points>
+            </Polygon>
+            <Circle fill="WHITE" layoutX="70.0" layoutY="28.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Line endX="-90.0" endY="6.0" layoutX="170.0" layoutY="39.0" startX="-100.0" startY="5.0" stroke="WHITE" />
+          </children>
+        </Pane>
+        <Line endX="-184.0" endY="109.0" layoutX="304.0" layoutY="239.0" startX="-184.0" startY="-235.0" strokeWidth="5.0" />
+        <Pane layoutX="0.0" layoutY="2.0" prefHeight="56.0" prefWidth="117.5" styleClass="localVariablePane">
+          <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="13.0" scaleX="1.3793765628321208" scaleY="1.375073787086223" strokeType="OUTSIDE" strokeWidth="0.0" text="Local" />
+            <Text fill="WHITE" layoutX="19.0" layoutY="38.0" scaleX="1.3464014291302178" scaleY="1.375073787086223" strokeType="OUTSIDE" strokeWidth="0.0" text="Variables" />
+          </children>
+        </Pane>
+        <Pane fx:id="coverPane" layoutX="0.0" layoutY="2.0" prefHeight="337.5" prefWidth="852.0">
+          <children>
+            <Button fx:id="stepThrough" layoutX="738.0" layoutY="0.0" mnemonicParsing="false" onAction="#handleStepThrough" prefHeight="25.999900000002526" prefWidth="114.0" text="Step Through" visible="false" />
+          </children>
+        </Pane>
+      </children>
+      <effect>
+        <InnerShadow>
+          <input>
+            <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+          </input>
+        </InnerShadow>
+      </effect>
+      <stylesheets>
+        <URL value="@garbageCollector.css" />
+      </stylesheets>
+    </Pane>
+    <Pane fx:id="bigPane" layoutX="16.0" layoutY="7.0" prefHeight="76.43965148925781" prefWidth="105.16729736328125">
+      <children>
+        <Polygon fill="DODGERBLUE" layoutX="33.0" layoutY="48.0" rotate="90.0" scaleX="0.3225241969409682" scaleY="0.45162675349118625" stroke="BLACK" strokeType="INSIDE">
+          <effect>
+            <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+          </effect>
+          <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+          </points>
+        </Polygon>
+        <Ellipse fill="DODGERBLUE" layoutX="57.0" layoutY="37.0" radiusX="38.56349182128906" radiusY="22.5" stroke="BLACK" strokeType="INSIDE">
+          <effect>
+            <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+          </effect>
+        </Ellipse>
+        <Polygon fill="DODGERBLUE" layoutX="55.0" layoutY="63.0" rotate="45.0" scaleX="0.17347897781202276" scaleY="0.24258563613283354" stroke="BLACK" strokeType="INSIDE">
+          <effect>
+            <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+          </effect>
+          <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+          </points>
+        </Polygon>
+        <Circle fill="WHITE" layoutX="75.0" layoutY="28.0" radius="5.4704742431640625" stroke="BLACK" strokeType="INSIDE" />
+        <Line endX="-82.0" endY="10.0" layoutX="170.0" layoutY="39.0" startX="-96.0" startY="7.0" stroke="WHITE" />
+      </children>
+    </Pane>
+    <Pane fx:id="mediumPane" layoutX="16.0" layoutY="105.0" prefHeight="80.0" prefWidth="108.0">
+      <children>
+        <Polygon fill="RED" layoutX="33.0" layoutY="48.0" rotate="90.0" scaleX="0.26" scaleY="0.37" stroke="BLACK" strokeType="INSIDE">
+          <effect>
+            <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+          </effect>
+          <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+          </points>
+        </Polygon>
+        <Ellipse fill="RED" layoutX="57.0" layoutY="37.0" radiusX="32.00004999999874" radiusY="18.0" stroke="BLACK" strokeType="INSIDE">
+          <effect>
+            <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+          </effect>
+        </Ellipse>
+        <Polygon fill="RED" layoutX="54.0" layoutY="63.0" rotate="45.0" scaleX="0.14" scaleY="0.21" stroke="BLACK" strokeType="INSIDE">
+          <effect>
+            <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+          </effect>
+          <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+          </points>
+        </Polygon>
+        <Circle fill="WHITE" layoutX="75.0" layoutY="28.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+        <Line endX="-88.0" endY="7.0" layoutX="170.0" layoutY="39.0" startX="-98.0" startY="6.0" stroke="WHITE" />
+      </children>
+    </Pane>
+    <Pane fx:id="smallPane" layoutX="16.0" layoutY="208.0" prefHeight="80.0" prefWidth="108.0">
+      <children>
+        <Polygon fill="LIMEGREEN" layoutX="33.0" layoutY="48.0" rotate="90.0" scaleX="0.22" scaleY="0.29" stroke="BLACK" strokeType="INSIDE">
+          <effect>
+            <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+          </effect>
+          <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+          </points>
+        </Polygon>
+        <Ellipse fill="LIMEGREEN" layoutX="57.0" layoutY="37.0" radiusX="28.0" radiusY="16.0" stroke="BLACK" strokeType="INSIDE">
+          <effect>
+            <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+          </effect>
+        </Ellipse>
+        <Polygon fill="LIMEGREEN" layoutX="54.0" layoutY="63.0" rotate="45.0" scaleX="0.11" scaleY="0.18" stroke="BLACK" strokeType="INSIDE">
+          <effect>
+            <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+          </effect>
+          <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="40.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+          </points>
+        </Polygon>
+        <Circle fill="WHITE" layoutX="70.0" layoutY="28.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+        <Line endX="-90.0" endY="6.0" layoutX="170.0" layoutY="39.0" startX="-100.0" startY="5.0" stroke="WHITE" />
+      </children>
+    </Pane>
+    <Pane layoutX="916.0" layoutY="41.0" maxWidth="318.0" prefHeight="420.470458984375" prefWidth="318.0" styleClass="textArea">
+      <children>
+        <HBox id="HBox" alignment="CENTER" layoutX="12.0" layoutY="9.0" maxHeight="400.529541015625" minWidth="291.0" prefHeight="400.529541015625" prefWidth="291.0" spacing="5.0" styleClass="textArea">
+          <children>
+            <Text fx:id="textArea" boundsType="VISUAL" font="$x1" scaleX="0.89375" scaleY="2.1166743965168067" strokeType="OUTSIDE" strokeWidth="5.0" text="     -------- Welcome to the garbage collector simulation --------                                                                                  This is the first phase. Here you allocate objects to the memory area. You can do this by pressing the buttons for selecting the fish objects. These buttons are found to the left of the screen. Each button allocates a different size fish to occupy space in memory. An object will also be added to the reference pool, which will be the next phase of the simulation." textAlignment="CENTER" wrappingWidth="320.0">
+              <fill>
+                <Color blue="0.600" green="0.984" red="1.000" fx:id="x3" />
+              </fill>
+              <HBox.margin>
+                <Insets bottom="2.0" left="2.0" right="2.0" top="5.0" />
+              </HBox.margin>
+            </Text>
+          </children>
+          <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+          </padding>
+        </HBox>
+      </children>
+      <effect>
+        <InnerShadow />
+      </effect>
+    </Pane>
+    <Pane layoutX="916.0" layoutY="518.0" prefHeight="200.0" prefWidth="317.0" styleClass="nextPhase">
+      <children>
+        <Button fx:id="nextPhase" layoutX="202.0" layoutY="146.0" mnemonicParsing="false" onAction="#handleNextPhase" text="Next Phase" textAlignment="LEFT" textFill="BLACK" />
+        <Text boundsType="VISUAL" fill="$x3" layoutX="43.0" layoutY="33.0" scaleX="1.3075197570486938" scaleY="1.3750717566016073" strokeType="OUTSIDE" strokeWidth="0.0" text="When you are ready to move on to the next phase of the simulation, hit the &quot;Next Phase&quot; button:" textAlignment="LEFT" wrappingWidth="200.0" />
+        <Text fill="$x3" layoutX="22.0" layoutY="132.0" scaleX="1.1217127848166495" scaleY="1.574514508026668" strokeType="OUTSIDE" strokeWidth="0.0" text="Once you decide to move to the next phase, you cannot return" textAlignment="LEFT" wrappingWidth="170.0" />
+      </children>
+      <effect>
+        <DropShadow color="$x2" offsetX="5.0" offsetY="5.0" />
+      </effect>
+    </Pane>
+  </children>
+  <effect>
+    <InnerShadow />
+  </effect>
+  <stylesheets>
+    <URL value="@garbageCollector.css" />
+  </stylesheets>
+</AnchorPane>

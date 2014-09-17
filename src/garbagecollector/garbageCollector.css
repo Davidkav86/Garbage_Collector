@@ -1,0 +1,68 @@
+/*
+ * Css file for the GarbageCollector GUI
+ *
+ * @author - David Kavanagh
+ */
+
+.theme {
+    master-color: #00FFFF;
+    -fx-background-color: derive(master-color, 70.0%);
+}
+
+.heap {
+    master-color: #F0F8FF;
+    -fx-background-color: derive(master-color, 70.0%);
+}
+
+.bigFish {
+	 -fx-background-color: DODGERBLUE;
+}
+
+#bigFish{
+	-fx-background-color: DODGERBLUE;
+}
+
+.mediumFish {
+	 -fx-background-color: RED;
+}
+
+#mediumFish{
+	-fx-background-color: RED;
+}
+
+.smallFish {
+	 -fx-background-color: LIMEGREEN;
+}
+
+#smallFish{
+	-fx-background-color: LIMEGREEN;
+}
+
+.poolObjects {
+	 -fx-background-color: #F8F8FF;
+}
+
+.gridPane{
+
+	-fx-background-image: url("Blue.jpeg");
+}
+
+.localVariablePane {
+	 -fx-background-color: BLACK;
+}
+
+.textArea {
+	-fx-background-image: url("dark.jpeg");
+}
+
+.nextPhase {
+	-fx-background-image: url("dark.jpeg");
+}
+
+.background {
+	-fx-background-image: url("BlueBackground.jpeg");
+}
+
+#referenced {
+	
+}
